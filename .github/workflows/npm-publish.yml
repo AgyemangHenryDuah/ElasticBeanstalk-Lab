@@ -27,4 +27,4 @@ jobs:
         aws-region: us-west-1
     - name: Upload to S3
       run: |
-        aws s3 cp nodeApp.zip s3://ebslan002/EBS-app.zip-${{ github.sha }}.zip
+        aws s3 cp EBS-app.zip s3://ebslan002/EBS-app.zip-${{ github.sha }}.zip
